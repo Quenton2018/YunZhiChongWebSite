@@ -1,0 +1,18 @@
+body,div,ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;} 
+/*::selection{color: black;background-color: #c9dd46;}*/   /*给所有选定元素样式改变*/
+*{box-sizing: border-box;}   
+table{border-collapse:collapse;}   
+body {font-family: "Microsoft YaHei";}    
+ul, li {list-style: none;}   
+a {text-decoration: none;color: #666;}    
+input, textarea {outline: none;box-shadow: none;}    
+textarea {resize: none;overflow: auto;}    
+.clearfix {zoom: 1;}   
+.clearfix:after {content: ".";width: 0;height: 0;visibility: hidden;display: block;clear: both;}    
+.fl {float: left}   
+.fr {float: right}   
+.tl {text-align: left;}     
+.tc {text-align: center}     
+.tr {text-align: right;} 
+.ellipse {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.bg{filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')"; -moz-background-size:100% 100%; background-size:100% 100%}

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="Keywords" content="江西九牛科技有限公司,充电桩，电动车充电,云智充">
+	<meta name="Description" content="江西九牛科技有限公司是充电桩的专业生产厂家和供应商。采购充电桩相关产品请联系江西九牛科技有限公司。">
+	<title>江西九牛科技有限公司</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.3.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+	<!--头部-->
+	<header class="header_wrap">
+		<div class="header_fixed">
+			<div class="nav_top">
+				<!--右边收藏         col-lg-3 col-md-4 col-sm-6 col-xs-10-->
+				<!--<div class="info">
+					<div class="fr">		
+						<ul class="info_ul">
+							<li><a href="">网站首页</a></li>
+							<li><a href="">联系方式</a></li>
+							<li><a href="">加入收藏</a></li>
+						</ul>
+					</div>
+				</div>-->
+			</div>
+			<!--logo 联系方式-->
+			<div class="find_way_wrap">
+				<div class="find_way clearfix">
+					<div class="logo fl bg" onclick="clicked('index.html')"></div>
+					<div class="cel_wrap fr">
+						<div class="email fl">
+							<img src="img/email.jpg" alt="email" />
+							<span>sales@jxjnkj.com</span>
+						</div>
+						<div class="tel fr">
+							<img src="img/tel.png" alt="email" />
+							<span>400-825-1068</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--导航-->
+			<div class="container nav-fix">
+			 <nav class="navbar navbar-default" role="navigation">
+			  <div class="container-fluid"> 
+				<div class="navbar-header">
+			      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+			        <span class="sr-only"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand hidden-sm">江西九牛科技有限公司</a>
+			    </div>
+			    <div class="navbar-collapse collapse" role="navigation">
+			      <ul class="nav navbar-nav">
+			        <li class="hidden-sm hidden-md nav-dw"><a>网站首页</a></li>
+			        <li class="nav-dw">
+			        	<a>产品中心</a>
+			        	<ul class="nav-child">
+	                        <li><a href="">产品展示</a></li>
+	                        <li><a href="">合作案例</a></li>
+                    	</ul>
+			        </li>
+			        <li class="nav-dw">
+			        	<a>技术支持</a>
+			        	<ul class="nav-child">
+	                        <li><a href="">售前服务</a></li>
+	                        <li><a href="">安装调试</a></li>
+	                        <li><a href="">售后培训</a></li>
+	                        <li><a href="">公司承诺</a></li>
+	                        <li><a href="">解决方案</a></li>
+                    	</ul>
+			        </li>
+			        <li class="nav-dw">
+			        	<a>新闻中心</a>
+			        	<ul class="nav-child">
+	                        <li><a href="">公司新闻</a></li>
+	                        <li><a href="">媒体新闻</a></li>
+	                        <li><a href="">客户新闻</a></li>
+                    	</ul> 
+			        </li>
+			        <li class="nav-dw">
+			        	<a>关于我们</a>
+			        	<ul class="nav-child">
+	                        <li><a href="">公司简介</a></li>
+	                        <li><a href="">企业文化</a></li>
+	                        <li><a href="">资质荣誉</a></li>
+	                        <li><a href="">公司实力</a></li>
+                   		</ul> 
+			        </li>
+			        <li class="nav-dw">
+			        	<a>加盟合作</a>
+			        	<ul class="nav-child">
+                       		<li><a href="">诚招代理</a></li>
+                    	</ul>
+			        </li>
+			        <li class="nav-dw">
+			        	<a>联系我们</a>
+			        	<ul class="nav-child">
+                       		<li><a href="">诚招代理</a></li>
+                    	</ul>
+			        </li>
+			        <li><img class="navli" src="img/navli.jpg"/></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		 </div>
+		</div>
+	</header>
+	<!--
+		常用动画
+		swiper-animate-effect="bounceInDown"      从上面掉下来
+		swiper-animate-effect="bounceInLeft"	      左边      bounceInRight   从右边出现        bounceInUp 向上
+		bounceOut		慢慢消失不见(当前位置慢慢变小最后消失)
+		bounceOutDown   掉下去消失不见
+		fadeInDown  上面一点点的位置淡出,位移到指定位置		fadeInLeft
+	-->
+	<!--轮播-->
+	<div class="banner">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide" style="background: url(img/banner1.jpg) center center no-repeat;background-size: 100% 100%;">
+		      	<!--<div class="playRig">
+		      		<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.4s">云智充</p>
+		      		<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s">用心做好充电一件事</p>
+		      		<!--<p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.6s">
+		      			<span>1212</span><span>121232323</span>
+		      		</p>-->
+		      	<!--</div>
+		      	<div class="ani playRig" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.7s">江西九牛科技有限公司</div>
+		      	<div class="ani playRig" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.8s">上海五纷物联科技有限公司</div>
+		      	<div class="ani playRig" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.9s">欢迎您的加入</div>-->
+		      </div>
+		      <div class="swiper-slide" style="background: url(img/banner2.jpg) center center no-repeat;background-size: 100% 100%;><img src="img/play2.png"/>
+		      	<!--<p class="ani playRig" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="0.3s"></p>
+		      	<p class="ani playRig" swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="0.3s"></p>-->
+		      </div>
+		      <div class="swiper-slide" style="background: url(img/banner3.jpg) center center no-repeat;background-size: 100% 100%;><img src="img/play3.jpg"/>
+		      	<!--<p class="ani playRig" swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="0.3s"></p>-->
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<div class="swiper-button-next"></div>
+    	<div class="swiper-button-prev"></div>
+	</div>
+	<!--news和产品中心-->
+	<div class="news_show">
+		<!--新闻中心-->
+		<div class="news_wrap">
+			<div class="news_top tc">
+				<h1>新闻中心</h1>
+				<h5>T H E&nbsp;&nbsp;&nbsp;N E W S&nbsp;&nbsp;&nbsp;C E N T E R</h6>
+				<p>与时俱进，洞察未来</p>
+				<a href="">查看更多》</a>
+			</div>
+			<div class="news_bottom clearfix">
+				<div class="news_left fl" onclick="clicked('https://baijiahao.baidu.com/s?id=1619081215538715904&wfr=spider&for=pc')">
+					<div class="img-box">					<!--https://baijiahao.baidu.com/s?id=1619081215538715904&wfr=spider&for=pc-->
+						<div class="img bg"></div>
+					</div>				
+					<div class="news_text">
+						<h4>又见电动车充电酿祸 海口凤翔花园13楼一住户起火</h4>
+						<p>南国都市报12月5日讯(记者 王康景)“13楼着火啦。”12月5日一早，在海口凤翔花园B区小区，有业主看到小区一栋楼13楼一户人家起火，阳台处直往外冒浓烟。小区物业闻讯后紧急组织人员带上消防器材赶到事发业主家将火扑灭。据了解，该住户将小型电动车推上楼放在阳台上，疑似电动车电池发生自燃引发火灾，将阳台的洗衣机也烧毁，所幸无人员受伤</p>
+					</div>
+				</div>
+				<div class="news_right fr clearfix">
+					<div class="news_list clearfix" onclick="clicked('https://baijiahao.baidu.com/s?id=1619432722009234368&wfr=spider&for=pc')">
+						<div class="list_left fl">
+							<div class="list_date">10</div>			<!--https://baijiahao.baidu.com/s?id=1619432722009234368&wfr=spider&for=pc-->
+							<div class="list_time">2018-12</div>
+						</div>
+						<div class="list_right fr">
+							<h4>警惕电动车充电时发生火灾 山东展开对电动车集中整治</h4>
+							<p>央广网济南12月10日消息（记者桂园）为了有效防控电动车火灾，山东省将展开电动车集中整治，将从电动车生产、销售、改装、停放等多环节，对电动车展开集中整治。山东省政府安委会确定自11月19日起至明年全国“两会”结束在全省集中开展今冬明春火灾防控工作</p>
+						</div>
+					</div>
+					<!--第二条-->
+					<div class="news_list clearfix" onclick="clicked('https://baijiahao.baidu.com/s?id=1619445156050233696&wfr=spider&for=pc')">
+						<div class="list_left fl">
+							<div class="list_date">11</div>       <!--https://baijiahao.baidu.com/s?id=1619445156050233696&wfr=spider&for=pc-->
+							<div class="list_time">2018-12</div>
+						</div>
+						<div class="list_right fr">
+							<h4>海南：电动车充电引发火灾 物业负责人被拘留</h4>
+							<p>2018年12月8日海南消息：海南儋州一小区夜间电动车充电，引发火灾，小区物业管理负责人被行政拘留十日。（钟幸）民声供稿平台 发</p>
+						</div>
+					</div>
+					<!--第三条-->
+					<div class="news_list clearfix">
+						<div class="list_left fl">
+							<div class="list_date">20</div>
+							<div class="list_time">2018-12</div>
+						</div>
+						<div class="list_right fr">
+							<h4>柳州一小区单元前正在充电的电动车着火，累及相邻电动车和越野车</h4>
+							<p>【原创】广西新闻网-南国今报柳州讯：12月15日，柳州市红光二区10栋3单元的楼道口两辆电动车突发大火，电动车燃烧后只剩下车架，事故还波及旁边一辆越野车，现场惨不忍睹。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--产品展示-->
+		<div class="show_wrap">
+			<div class="news_top tc">
+				<h1>产品展示</h1>
+				<h5>P R O D U C T&nbsp;&nbsp;&nbsp;D I S P L A Y</h6>
+				<p>科技创造未来，服务创造价值</p>
+			</div>
+			<div class="show_bottom">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide" style="background: url(img/plays1.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				      <div class="swiper-slide" style="background: url(img/plays2.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				      <div class="swiper-slide" style="background: url(img/plays3.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				      <div class="swiper-slide" style="background: url(img/plays4.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				      <div class="swiper-slide" style="background: url(img/plays5.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				      <div class="swiper-slide" style="background: url(img/plays6.jpg) center center no-repeat;background-size: 100% 100%;"></div>
+				    </div>
+				    <!-- Add Pagination -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--合作案例-->
+	<div class="case_wrap">
+		<div class="case">
+			<div class="news_top tc">
+				<h1>合作案例</h1>
+				<h5>T H E&nbsp;&nbsp;&nbsp;N E W S&nbsp;&nbsp;&nbsp;C E N T E R</h6>
+				<p>与时俱进，洞察未来</p>
+				<a href="">查看更多》</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case1.png);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>洛阳市绿都维也纳春天</h4>
+							<p>小区内部环境典雅幽静，绿化多，通过小区道路的合理组织，休闲设施的精心安排，提供自然、舒适的居住环境。周边配套齐全，设施完备，物业管理完善，保安24小时值班，住户素质高。社区主流健康向上，社区风气良好，邻里关系和谐。基础设施健全，周围商圈多，购物，就医，娱乐等方便快捷。</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case2.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>香樟小区</h4>
+							<p>方圆小区位于黄石东路，是法院宿舍，为方圆集团精心打造的楼盘。该楼盘间隔方正实用，采光一流，安全的小区环境让业主的生活更多轻松舒适。小区花园大，环境安静。小区内配小学、中学、银行，花园旁边就是大型超市好又多，步行3分钟就到地铁江夏站，有30几条公交路线往返市区，生活配套完善一流，24小时保安值班，保障住户安全。</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case3.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>怀化市溆浦县工业园1</h4>
+							<p>赤峰小区位于密云路、曲阳路交接口，在赤峰路、曲阳路及密云路都有出口。临近三号线赤峰路轻轨站,周遍公交也有十余量可工选择,主要通往上海火车站、人民广场、静安寺等方向。该小区中的赤峰路370弄等对口第四中心小学，很多购房者多以此原因买在这里。整个小区比较大,高层多层错落有秩。小区内有很多都是离退休的老干部,党员之家的字样随处可见，整体的人文素质还不错。</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case4.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>景德镇长虹金域中央</h4>
+							<p>临汾小区位于上海市闸北区临汾路375弄，为全国城市物业管理优秀住宅小区、江泽民题词小区、上海市文明小区、上海市居住物业管理示范小区。该小区由荣获“上海市物业管理优秀集体”称号的上海北安物业管理有限公司管理。小区建于1987年，建筑面积4万平米，现有住户723户，绿化面积1.2万平方米，绿化率30%，小区环境十分优美。 周边配套设施完善，交通及其便利。</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case5.png);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>山东烟台蓬莱泉城学院</h4>
+							<p>小区规划和房型都比较合理，得房率高，房型方正、大气，南北通透，阳光足，周边设施配套齐全，非常适宜居祝社区主流健康向上，社区风气良好，邻里关系和谐。楼宇间比较开阔，围绕中央绿地的房屋景观很好。小区整体体现现代简约风格，采用中间高、东西低的建筑高度，使小区建筑形态层次分明，富有强烈韵律感。简洁、流畅的建筑造型具有强烈的现代感，色调明快淡雅又不失高贵。小区的占地面积较大，内部环境整洁干净，道路宽敞舒畅。通过小区道路的合理组织，休闲设施的精心安排，提供自然、舒适的居住环境。充满潜力和魅力的价值地段、完善.</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="case_top" style="background-image: url(img/case6.png);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>吕梁市岚县秀容河畔</h4>
+							<p>叮咚小区App由上海壹佰米网络科技有限公司开发运营，是一款为日常小区生活提供便利的app软件 [1]  。线上手机端app与线下服务站相结合，提供邻里社交平台，实现二手交易、拼车、家政推荐、代缴水电煤及物业费、代收快递、提供邻里对话、小区BBS平台，为小区生活提供更多便利。</p>
+							<div class="check tl">
+								更多详情&nbsp;>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--关于九牛-->
+	<div class="aboutJN">
+		<div class="about">
+			<div class="news_top tc">
+				<h1>关于九牛</h1>
+				<h5>P R O D U C T&nbsp;&nbsp;&nbsp;D I S P L A Y</h6>
+				<p>科技创造未来,服务创造价值</p>
+				<a href="">查看更多》</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col_padd">
+					<div class="case_list">
+						<!--关于九牛-->
+						<div class="case-img">
+							<div class="ward">
+								<div class="ward-inner tc">关于九牛</div>
+							</div>
+							<div class="case_top bg" style="background-image: url(img/about1.jpg);"></div>
+						</div>
+						<!--关于九牛-->
+						<div class="case_bottom">
+							<h4>九牛简介</h4>
+							<p>上海五纷物联技术有限公司是一家富有创新意识与创业精神的科技公司，专业从事互联网+智能硬件的物联网生态研发。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="ward"></div>
+							<div class="case_top bg" style="background-image: url(img/about2.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>企业文化</h4>
+							<p> 客户第一  开放分享    团队合作  拥抱变化  诚信  敬业  激情   创新  拥抱变化  诚信  敬业  激情   创新   </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="ward"></div>
+							<div class="case_top bg" style="background-image: url(img/about3.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>企业资质</h4>
+							<p>上海五纷物联技术有限公司是一家富有创新意识与创业精神的科技公司，专业从事互联网+智能硬件的物联网生态研发。</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col_padd">
+					<div class="case_list">
+						<!--案例图片-->
+						<div class="case-img">
+							<div class="ward"></div>
+							<div class="case_top bg" style="background-image: url(img/about4.jpg);"></div>
+						</div>
+						<!--案例介绍-->
+						<div class="case_bottom">
+							<h4>质量保证</h4>
+							<p>上海五纷物联技术有限公司是一家富有创新意识与创业精神的科技公司，专业从事互联网+智能硬件的物联网生态研发。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--页脚-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-lg-3 fot-pdd">
+                    <h4>服务网点</h4>
+                    <p class="dh">免费服务热线 : 4008-825-1086</p>
+                    <div class="clearfix tc hov-big">
+                    	<div class="fl hov-big">
+                    		<img src="img/weixin.jpg"/>
+                    		<p class="fot-bot">官方微信</p>
+                    	</div>
+                    	<div class="fr hov-big2" >
+                    		<img src="img/weixin.jpg"/>
+                    		<p class="fot-bot">下载APP</p>
+                    	</div>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd tl">
+                    <h6>产品中心</h6>
+                    <ul>
+                        <li><a href="">产品展示</a></li>
+                        <li><a href="">合作案例</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd tl">
+                    <h6>技术支持</h6>
+                    <ul>
+                        <li><a href="">售前服务</a></li>
+                        <li><a href="">安装调试</a></li>
+                        <li><a href="">售后培训</a></li>
+                        <li><a href="">公司承诺</a></li>
+                        <li><a href="">解决方案</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd tl">
+                    <h6>新闻中心</h6>
+                    <ul>
+                        <li><a href="">公司新闻</a></li>
+                        <li><a href="">媒体新闻</a></li>
+                        <li><a href="">客户新闻</a></li>
+                    </ul>                    
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd tl">
+                    <h6>关于我们</h6>
+                    <ul>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">企业文化</a></li>
+                        <li><a href="">资质荣誉</a></li>
+                        <li><a href="">公司实力</a></li>
+                    </ul>                    
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd ">
+                    <h6>加盟合作</h6>
+                    <ul>
+                        <li><a href="">诚招代理</a></li>
+                    </ul> 
+                </div>
+                <div class="col-sm-1 col-lg-1 fot-pdd">
+                    <h6>联系我们</h6>
+                    <ul>
+                        <li>
+                        	<a href="tencent://message/?uin=1234567&Site=Sambow&Menu=yes">诚招代理</a>   <!--打开qq软件窗口-->
+                        	<!--<a target="_blank" href="tencent://message/?uin=614360117&Site=www.Quenton.cn&Menu=yes">诚招代理</a>-->
+                        	<!--需要开通商家沟通组件-->
+                        </li>     
+                    </ul> 
+                </div>
+            </div>
+        </div>
+   	</footer>
+   	<!--许可证-->
+   	<div class="permission_wrap">
+   		<div class="permission clearfix">
+   			<div class="permission_left fl tr">
+   				Copyright 2018 Powerleader All Rights Reserved
+   			</div>
+   			<div class="permission_right fr tl">
+   				九牛科技版权所有网站备案许可证号:赣ICP备05001827号-1
+   			</div>
+   		</div>
+   	</div>
+   	<!--回到顶部-->
+	<div class="liuyan_warp">
+		<a href="http://wpa.qq.com/msgrd?V=1&amp;uin={$im}&amp;Site={$shop_name}&amp;Menu=yes">
+			<div class="zaixian"></div>
+		</a>
+		<div class="yidong"></div>
+		<div class="bangong"></div>
+		<div class="fanhui"></div>
+	</div>
+ 	<!--移动的客服-->
+ 	<div id="box" style="display: none;">
+        <div id="ball"></div>
+    </div>
+ 
+ 
+
+
+	<script>
+	    var swiper1 = new Swiper('.banner .swiper-container', {
+	      //加载动画
+	      on:{
+		      init: function(){
+		        swiperAnimateCache(this); //隐藏动画元素 
+		        swiperAnimate(this); //初始化完成开始动画
+		      }, 
+		      slideChangeTransitionEnd: function(){ 
+		        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+		        //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+		      } 
+		  },
+	      spaceBetween: 1,
+	      freeMode:false,
+	      slidesPerView: 1,
+	      loop: true,
+	      centeredSlides: true,
+	      setWrapperSize :true,
+	      grabCursor: true,
+	      speed :1500,
+	      keyboard : true,
+	      autoplay: {
+	        delay: 5000,
+	        disableOnInteraction: false,
+	      },
+	      pagination: {
+	        el: '.banner .swiper-pagination',
+	        clickable: true,
+	      }, 
+	      navigation: {
+	        nextEl: '.banner .swiper-button-next',
+	        prevEl: '.banner .swiper-button-prev',
+	      },
+	    });
+	    //鼠标覆盖停止自动切换与隐藏前进后退按钮
+		
+		
+		
+		
+	    
+	    var width = document.body.clientWidth;
+	    var views = width<765 ? 1 : 3;
+	    //
+	    var swiper2 = new Swiper('.show_bottom .swiper-container', {
+	      slidesPerView: views,
+	      spaceBetween: 30,
+	      loop: true,
+	      speed :2000,
+	      centeredSlides: true,
+	      autoplay: {
+	        delay: 10,
+	        disableOnInteraction: false,
+	      },
+	      pagination: {
+	        el: '.show_bottom .swiper-pagination',
+	        clickable: true,
+	      },
+	      navigation: {
+	        nextEl: '.show_bottom .swiper-button-next',
+	        prevEl: '.show_bottom .swiper-button-prev',
+	      },
+	    });
+	    
+	    
+
+	    //顶部导航栏固定定位
+	    window.onscroll  = function(){
+	    	var scrollHeight = document.documentElement.scrollTop + document.documentElement.clientHeight;
+			//左边回到顶部
+			if(width<765){
+				if(scrollHeight >= 50){
+					$('.liuyan_warp').addClass('fixed_nav');
+			    };
+	            if(scrollHeight <= 850){
+					$('.liuyan_warp').removeClass('fixed_nav');
+			    };
+			};
+			if(width>=1200){
+				if(scrollHeight >= 800){
+					$('.liuyan_warp').addClass('fixed_nav');
+			    };
+	            if(scrollHeight <= 1100){
+					$('.liuyan_warp').removeClass('fixed_nav');
+			    };
+			    //左右进入动画
+			    if(scrollHeight >= 1200){
+			    	$('.img-box').css({'left':'0','opacity':'1'});
+			    	$('.news_list').css({'right':'0','opacity':'1'});
+			    	$('.news_left .news_text').css({'left':'0','opacity':'1'});
+			    };
+			    
+			};
+			if(width>=765&&width<1200){
+				if((scrollHeight) >= 50){
+					$('.liuyan_warp').addClass('fixed_nav');
+			    };
+	            if((scrollHeight)<1400){
+					$('.liuyan_warp').removeClass('fixed_nav');
+			    };
+			};
+        };
+         //回到顶部
+	    $('.fanhui').click(function(){
+			$('html, body').animate({scrollTop: 0},1000);
+		});
+		//页脚
+	    if(width<765){
+	    	$("footer .fot-pdd h6").click(function(){
+				$(this).next().stop().slideToggle();
+				$(this).parent().siblings().find("ul").slideUp();
+				$(this).css({"color":"#ff6d22"}).parent().siblings().find("h6").css({"color":""});
+			});
+			$(".nav-dw a").click(function(){
+				$(this).next().stop().slideToggle();
+				$(this).parent().siblings().find("ul").slideUp();
+			});
+			$('#box,#ball').hide();
+		};
+		if(width>=1200){
+			//二级导航
+			$(".nav-dw").mouseover(function(){
+				$(this).find('.nav-child').stop().slideDown(300);
+			});
+			$(".nav-dw").mouseout(function(){
+				$(this).find('.nav-child').stop().slideUp();
+			});
+			
+			$(".aboutJN .case-img").mouseover(function(){
+				$(this).find('.ward').stop().slideDown();
+			});
+			$(".aboutJN .case-img").mouseout(function(){
+				$(this).find('.ward').stop().slideUp();
+			});
+			//
+		};
+		
+		//碰壁反弹
+		var box=document.getElementById('box');
+	    var ball=document.getElementById('ball');
+	    var x=0,y=0,timer1=null,movex=1,movey=1;
+	    move();
+	    function move(){
+	    	timer1=setInterval(function(){
+	        if (movex) {//判断方向
+	            x++;
+	            if (x>=box.clientWidth-ball.clientWidth) {
+	                movex=0;
+	            }
+	        }
+	        else{
+	            x--;
+	            if (x<=0) {
+	                movex=1;
+	                }
+	            }
+	        ball.style.left=x+'px';
+	        if (movey) {
+	            y++;
+	            if (y>=box.clientHeight-ball.clientHeight) {
+	                movey=0;
+	            }
+	        }else{
+	            y--;
+	            if (y<=0) {
+	                movey=1;
+	            }
+	        }
+	        ball.style.top=y+'px';
+	    },8);
+	    };
+	    ball.onmouseover = function(){
+	    	clearInterval(timer1)
+	    };
+	    ball.onmouseout = function(){
+	    	move()
+	    };
+		
+		
+		
+		
+	</script>
+</body>
+</html>
